@@ -13,19 +13,24 @@ Introduction and hero banner
 Technical skills
 Projects
 Contact information and form
-🚀 Features
+
+<h1>🚀 Features</h1>
 Responsive design for desktop and mobile
 Sticky navigation bar with hamburger menu
 Smooth hover and fade animations
 Clean and modern UI
 Contact form layout
 Well-structured and readable code
-🛠️ Built With
+
+<br />
+<h1>🛠️ Built With</h1>
 HTML5 – semantic structure
 CSS3 – modern layout, animations, responsiveness
 JavaScript – mobile navigation toggle
 System UI Fonts – fast and clean typography
-📂 Folder Structure
+
+<br />
+<h1>📂 Folder Structure</h1>
 portfolio/
 │
 ├── index.html
