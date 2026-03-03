@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Professional portfolio website of [Your Name], Full Stack Developer from Patna, Bihar.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="icon" href="https://via.placeholder.com/32/10b981/ffffff?text=PN" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">NITISH</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="gradient-text">Nitish Kumar</span></h1>
+            <p class="hero-subtitle">
+                <span id="typing-text"></span> crafting exceptional digital experiences| Ranchi, Jharkhand
+            </p>
+
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-button primary">View My Work</a>
+                <a href="#contact" class="con-button secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="section-header">
+            <h2>About Me</h2>
+            <!-- <p class="section-subtitle">Passionate developer with 3+ years experience creating scalable web applications</p> -->
+        </div>
+        <div class="about-grid">
+            <img src="profile-img.png" alt="Professional headshot of Nitish Kumar Yadav" class="profile-img">
+            <div class="about-text">
+                <p>I am a motivated Full Stack Developer fresher from Patna, Bihar with a strong foundation in modern web technologies. I enjoy learning by building real projects and turning ideas into clean, functional, and user-friendly web applications.</p>
+                <p>I have hands-on experience with React, Node.js, and basic cloud concepts through personal projects and practice. I focus on writing clean code, understanding performance fundamentals, and creating intuitive user experiences.</p>
+                <p>I am actively seeking entry-level opportunities, internships, or freelance projects where I can grow my skills, contribute to real-world applications, and work with experienced teams. Let’s build something meaningful together.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Expertise</h2>
+                <p class="section-subtitle">Core technologies I work with daily</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Next.js</span>
+                        <span>TypeScript</span>
+                        <span>Tailwind CSS</span>
+                        <span>Framer Motion</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>Express.js</span>
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>REST APIs</span>
+                        <span>GraphQL</span>
+                        <span>JWT Auth</span>
+                        <span>Middleware</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Database</h3>
+                    <div class="skill-tags">
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>Redis</span>
+                        <span>Prisma</span>
+                        <span>Supabase</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">☁️</div>
+                    <h3>DevOps</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span>
+                        <span>Vercel</span>
+                        <span>Docker</span>
+                        <span>CI/CD</span>
+                        <span>Serverless</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p class="section-subtitle">Hand-picked projects showcasing my best work</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">E-Commerce Marketplace</h3>
+                    <p class="project-tech">React • Node.js • Stripe • Tailwind</p>
+                    <p>Full-stack e-commerce platform with real-time inventory, payment processing, and admin dashboard.</p>
+                    <a href="#" class="project-link">View Project <span class="icon">→</span></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">SaaS Dashboard</h3>
+                    <p class="project-tech">Next.js • Prisma • Chart.js • Vercel</p>
+                    <p>Analytics dashboard for SaaS products with real-time metrics, user management, and subscription billing.</p>
+                    <a href="#" class="project-link">View Project <span class="icon">→</span></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">SaaS Dashboard</h3>
+                    <p class="project-tech">Next.js • Prisma • Chart.js • Vercel</p>
+                    <p>Analytics dashboard for SaaS products with real-time metrics, user management, and subscription billing.</p>
+                    <a href="#" class="project-link">View Project <span class="icon">→</span></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image"></div>
+                <div class="project-content">
+                    <h3 class="project-title">TaskFlow Pro</h3>
+                    <p class="project-tech">React • Socket.io • MongoDB • Figma</p>
+                    <p>Collaborative task management app with drag-and-drop, real-time collaboration, and team workspaces.</p>
+                    <a href="#" class="project-link">View Project <span class="icon">→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Work Together</h2>
+                <p class="section-subtitle">Have a project? I'd love to hear about it. Let's create something extraordinary.</p>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="nitishkumar@gmail.com" required>
+                    <select required>
+                        <option value="">Project Type</option>
+                        <option value="website">Website Development</option>
+                        <option value="app">Web Application</option>
+                        <option value="design">UI/UX Design</option>
+                        <option value="consult">Consultation</option>
+                    </select>
+                    <textarea placeholder="Tell me about your project requirements..." rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>nitishkumar@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91-9876543210</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Ranchi, Jharkhand, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h4>Availability</h4>
+                            <p>Full-time / Freelance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com/yourusername" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://facebook.com/yourusername" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://instagram.com/yourusername" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p>&copy; 2026 Nitish Kumar. Ranchi, Jharkhand. Built with modern web technologies.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
