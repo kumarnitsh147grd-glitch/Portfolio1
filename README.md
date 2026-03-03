@@ -31,6 +31,7 @@ System UI Fonts – fast and clean typography
 
 <br />
 <h1>📂 Folder Structure</h1>
+
 portfolio/
 │
 ├── index.html
